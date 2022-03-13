@@ -6,6 +6,7 @@ require("../stylesheets/app.css");
 require("sweetalert2/dist/sweetalert2.min.css");
 require("semantic-ui-css/semantic.min.css");
 //const { create } = require('ipfs-http-client')
+const fs = require('fs');
 
 // Contract import
 const ContractImport = require('../contracts/Contracts.sol');
@@ -56,7 +57,10 @@ window.localMediaStream = null
 
 function launchDeris(){
   console.log("Launching Deris");
-
+  console.log(elem('owner').innerHTML.toString());
+  // fs.writeFile('Output.txt', elem('owner').innerHTML.toString() , (err) => {
+  //   if (err) throw err;
+  // });
 }
 
 /* IDENTITY FUNCTIONS */

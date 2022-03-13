@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 .ui.segment{
-  background: #1A1A2E !important;
+  background: #000000 !important;
   color: #fff;
 }
 body{
@@ -24,10 +24,10 @@ body > div.swal2-container.swal2-center.swal2-fade.swal2-shown > div{
   background: #233564 !important;
 }
 .item{
-  background: #E94560 !important;
+  background: #ebb217 !important;
 }
 .active.item{
-  background: #E01B3B !important;
+  background: #e07511 !important;
 }
 
 /* ATTRIBUTES */

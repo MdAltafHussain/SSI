@@ -2,11 +2,17 @@
   "name": "ssi_for_p2p",
   "version": "1.0.0",
   "description": "p2p ride sharing with ssi",
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
   "dependencies": {
     "@truffle/hdwallet-provider": "*",
     "bip39": "^2.2.0",
     "ethereumjs-util": "^5.1.1",
     "ethereumjs-wallet": "^0.6.0",
+    "fs": "^0.0.1-security",
     "ipfs-api": "^12.1.7",
     "ipfs-http-client": "^52.0.3",
     "jsqrcode": "0.0.7",
