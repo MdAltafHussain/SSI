@@ -54,6 +54,11 @@ var profile = {
 
 window.localMediaStream = null
 
+function launchDeris(){
+  console.log("Launching Deris");
+
+}
+
 /* IDENTITY FUNCTIONS */
 function getIdentity() {
   fetchIdentity(uuid, showIdentity, writeAttributes);
@@ -1068,6 +1073,9 @@ window.addEventListener('load', function() {
   // Add button event listeners
   elem('setAttributes').addEventListener('click', function(event) {
     setAttributes();
+  });
+  elem('launchDeris').addEventListener('click', function(event) {
+    launchDeris();
   });
   elem('send-request').addEventListener('click', function(event) {
     showAttributeRequestPopup();

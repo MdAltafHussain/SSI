@@ -130,6 +130,8 @@ textarea {
   padding-right: 20px;
 }
 
+
+
 @media only screen and (max-width: 767px) {
   .container.actions .button {
     width: 48%;
