@@ -1,0 +1,41 @@
+{
+  "name": "ssi_for_p2p",
+  "version": "1.0.0",
+  "description": "p2p ride sharing with ssi",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "*",
+    "bip39": "^2.2.0",
+    "ethereumjs-util": "^5.1.1",
+    "ethereumjs-wallet": "^0.6.0",
+    "ipfs-api": "^12.1.7",
+    "ipfs-http-client": "^52.0.3",
+    "jsqrcode": "0.0.7",
+    "qrcode-reader": "^1.0.4",
+    "semantic-ui-css": "^2.4.1",
+    "solc": "^0.4.9",
+    "solc-loader": "^1.1.1",
+    "sweetalert2": "^6.4.3",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^0.18.2",
+    "web3-provider-engine": "^9.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.2",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+    "build": ".\\node_modules\\.bin\\webpack",
+    "dev": ".\\node_modules\\.bin\\webpack-dev-server --hot --host 0.0.0.0"
+  },
+  "author": "nitk",
+  "license": "ISC",
+  "private": true
+}

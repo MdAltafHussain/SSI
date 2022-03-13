@@ -1,0 +1,137 @@
+/* USER DETAILS */
+#qrcode {
+  float: left;
+  margin-right: 3px;
+  width: 100px;
+  margin: 10px 10px 0px 0px;
+  border-radius: 3px;
+}
+#qrcode:hover {
+  cursor: pointer;
+}
+.ui.segment{
+  background: #1A1A2E !important;
+  color: #fff;
+}
+body{
+  background: #16213E !important;
+  color: #fff !important;
+}
+body > div.swal2-container.swal2-center.swal2-fade.swal2-shown > div{
+  background:#45E9CE !important;
+}
+.content{
+  background: #233564 !important;
+}
+.item{
+  background: #E94560 !important;
+}
+.active.item{
+  background: #E01B3B !important;
+}
+
+/* ATTRIBUTES */
+.ipfs-attribute-name, .ipfs-attribute-value {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.ipfs-attribute-signer {
+  width: 150px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.overflow-ellipsis {
+  white-space: nowrap;
+}
+.swal2-content, .overflow-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lh-two {
+  line-height: 2em;
+}
+.unverified {
+  color: #D50F25;
+}
+.verifiying {
+  color: #EEB211;
+}
+.verified {
+  color: #009925;
+}
+
+/* SIGNUP MODAL */
+.signup-modal .swal2-input {
+  display: inline !important;
+  text-align: left !important;
+  width: 70% !important;
+}
+.signup-modal .swal2-validationerror {
+  float: left;
+  width: 110%;
+}
+.signup-modal .swal2-spacer {
+  display: none !important;
+}
+.signup-modal .swal2-confirm {
+  display: inline !important;
+}
+.recovery-modal .swal2-loading {
+  vertical-align: baseline !important;
+}
+
+/* LOGGER */
+textarea {
+  font-size: 0.85em !important;
+  font-family: "Courier New", Courier, monospace !important;
+}
+#logger {
+  overflow: auto;
+  border: 1px solid rgb(29, 177, 182);
+  width: 100%;
+  height: 200px;
+}
+.log-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  padding: 3px;
+  white-space: normal;
+}
+.err {
+  color: red;
+}
+
+/* EXTRA */
+#disclosure-attributes {
+  text-align: left;
+}
+
+#disclosure-attributes .content {
+  margin-top: 5px;
+}
+
+.attribute:first-child .delete.icon {
+  visibility: hidden;
+}
+
+.contact .mini.image {
+  cursor: pointer;
+}
+
+.swal2-content .contact.card {
+  margin-bottom: 1px !important;
+}
+
+.recovery-modal .swal2-content {
+  overflow: visible;
+}
+
+.contact .meta {
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .container.actions .button {
+    width: 48%;
+  }
+}
