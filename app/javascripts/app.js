@@ -29,7 +29,7 @@ const ipfs = ipfsapi(current_ip, '5002');
 // Global settings
 const NUM_ACCOUNTS = 99;
 const PROVIDER = 'http://'+current_ip+':7545';
-const DEFAULT_MNEMONIC = "praise cross you iron address romance core lady magic delay fluid twenty";
+const DEFAULT_MNEMONIC = "tone donate demand almost unable material donate right latin day left medal";
 
 // Contract variables
 var uuid;
@@ -61,6 +61,7 @@ function launchDeris(){
   // fs.writeFile('Output.txt', elem('owner').innerHTML.toString() , (err) => {
   //   if (err) throw err;
   // });
+  window.open('http://localhost:3000/','_self');//_blank to open in new tab
 }
 
 /* IDENTITY FUNCTIONS */
