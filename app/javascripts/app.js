@@ -29,7 +29,7 @@ const ipfs = ipfsapi(current_ip, '5002');
 // Global settings
 const NUM_ACCOUNTS = 99;
 const PROVIDER = 'http://'+current_ip+':7545';
-const DEFAULT_MNEMONIC = "wagon shock bulk brother cousin solar half capable cream laptop bargain vintage";
+const DEFAULT_MNEMONIC = "knee build wrestle vicious elevator rebel cattle want pill rough forum culture";
 
 // Contract variables
 var uuid;
